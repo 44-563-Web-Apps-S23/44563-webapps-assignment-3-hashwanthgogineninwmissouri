@@ -75,5 +75,21 @@ tr:nth-child(even) {
               <td>7</td>
             </tr>
           </table>
+          <hr>
+          <h1>
+            Code fencing
+          </h1>
+          <a href="https://stackoverflow.com/questions/19640842/how-to-knockout-for-svg-text-element"><blockquote>how to knockout for svg text element?</blockquote></a>
+          <pre>
+            &lt;div class=&quot;knockout&quot;&gt;
+            &lt;svg class=&quot;knockout-text-container&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;      
+              &lt;rect class=&quot;knockout-text-bg&quot; width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#000&quot; x=&quot;0&quot; y=&quot;0&quot; fill-opacity=&quot;1&quot; mask=&quot;url(#knockout-text)&quot; /&gt;
+              &lt;mask id=&quot;knockout-text&quot;&gt;
+                &lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#fff&quot; x=&quot;0&quot; y=&quot;0&quot; /&gt;
+                &lt;text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;#000&quot; text-anchor=&quot;middle&quot;&gt;Knock Out Text&lt;/text&gt;
+              &lt;/mask&gt;
+            &lt;/svg&gt;
+          &lt;/div&gt;
+          </pre>
      </body>
 </html>
